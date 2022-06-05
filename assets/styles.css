@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Magra', sans-serif;;
+}
+/* home page */
+body{
+    /* background:url(./images/jack-white-qJW0-uoVYkw-unsplash.jpg)
+ */
+ background-color: #9D9D9D;
+}
+.intro{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: none;
+    margin: 80px 80px 80px 80px;
+    background-color: #FDEFF4;
+}
+.photo{
+    background: url(./images/IMG-8784.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+.textone{
+    position: relative;
+    text-align: center;
+    top: 30%;
+    
+}
+.textone h1{
+    font-size: 70px;
+    padding-top: 40px;
+}
+.textone h1 span{
+    color: #E99B9B;
+    font-family: 'Londrina Outline', serif;
+    
+}
+.textone h2{
+    font-size: 40px;
+}
+.textone h3{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.textone h3>span{
+background-color: white;
+}
+.textone button{
+    padding: 20px 30px 20px 30px;
+    border: none;
+    background-color: #E99B9B;
+    border-radius: 10px;
+    font-size: 15px;
+}
+a{
+    color: black;
+}
+ a:hover{
+    color: white;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;  
+}
+/* about page */
+.about{
+    display: grid;
+    grid-template-columns: 500px 1fr; 
+    width: 100%;
+    height: 100vh;
+    margin: 80px 80px 0 80px;
+    background-color: #FDEFF4;
+    /* position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: none;
+    margin: 80px 80px 80px 80px;
+    background-color: #FDEFF4;
+    height: 90vh; */
+    
+}
+
+
+.about .aboutphoto{
+    background-color: #E99B9B;
+    width: 50%;
+}
+.about .aboutphoto img{
+    height:30vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.about .aboutphoto ul{
+    border: none;
+    padding: 60px 0 30px 0;
+    font-size: 25px;
+    position: relative;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bolder;
+margin: 0;
+}
+
+.icons{
+    position: absolute;
+    right: 1%;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    gap: 60px;
+    background-color:#E99B9B;
+    border: none;
+    border-radius: 40px;
+    width: 3.5%;
+    text-align:center;
+    color: black;
+    padding: 30px 0 30px 0;
+}
+.about .aboutme p {
+    font-size: 40px;
+    font-style: italic;
+}
+.about .aboutme p span{
+    font-weight: bolder;
+}
+.about .aboutme h1{
+    font-size: 60px;
+    font-weight: bolder;
+    border: 1px solid black ;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    padding: 30px 0 30px 300px;
+    
+}
+#small{
+    font-size: 30px;
+    padding-top: 60px;
+    line-height: 50px;
+}
+.aboutme h2{
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.abouticons{
+    font-size: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    color: #9D9D9D;
+}
+/* resume page */
+#resumesmall{
+    font-size: 30px;
+    padding-bottom: 40px;
+    font-style: italic;
+}
+#skills{
+    font-size: 30px;
+    padding-bottom: 20px;
+    
+}
+#skills span{
+    text-decoration: overline;
+    text-decoration-color: #E99B9B;
+}
+.aboutme ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    line-height: 40px;
+}
+#tiny{
+    line-height: 30px;
+    padding-top: 20px;
+}
+.aboutme ul i{
+    color: #E99B9B;
+    font-size: 20px;
+
+}
+.experience{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+    margin: 0;
+}
+#gradient{
+    color: #E99B9B;
+    padding-top: 60px;
+}
+#gradient span{
+    color: #9D9D9D;
+}
+/* contact page */
+#contact{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 30px;
+}
+#contact li i{
+    font-size: 90px;
+    color: black;
+}
+#column{
+    display: flex;
+    flex-direction: column;
+    padding-left: 350px;
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.aboutme h2 span{
+    color: #E99B9B;
+}
